@@ -26,7 +26,7 @@ model = genai.GenerativeModel('gemini-2.0-flash')
 
 # MongoDB Connection with error handling
 try:
-    client = MongoClient('mongodb://localhost:27017/')
+    client = MongoClient('mongodb+srv://nazeershaik6676:nazeer99@chatbot.kuirs0u.mongodb.net/')
     db = client['chatbot_db']
     users = db['users']
     user_interactions = db['user_interactions']
